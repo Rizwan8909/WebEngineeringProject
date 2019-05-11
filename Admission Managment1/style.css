@@ -1,0 +1,177 @@
+html{
+  scroll-behavior: smooth;
+}
+
+.color_bg_nav{
+	background-color:  rgb(244,244,244);
+}
+.btnBorder{
+	border-radius: 0px;
+}
+.btnColor{
+	background-color: rgb(245,245,245);
+	border-color:  rgb(245,245,245);
+	color: rgb(32,32,32);
+}
+.btnColor:active { 
+  background-color: yellow;
+}
+.navHovr:hover{
+	background-color: rgb(0, 177, 106);
+	border-color: rgb(0, 177, 106);
+	color: white;
+}
+.btnPad{
+	margin-right: 700px;
+}
+.float{
+	float: left;
+}
+.btnSize{
+	/*padding-top: 20px;*
+	padding-bottom: 20px;
+	padding-right: 20px;
+	padding-left: 20px;*/
+}
+.btnText{
+	font-weight: normal;
+	font-size: 15px;
+}
+.Applybtn{
+	border-radius: 50px;
+	background-color: rgb(0, 177, 106);
+	/*width: 160px;*/
+	transition: 0.2s;
+
+}
+
+#PencilSize{
+	background-size: 10px;
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.modiText{
+	color: gray;
+	font-size: 1rem;
+}
+.PicSMIU{
+	background-image: url('pic2.jpg');
+  	height: 100%;
+  	width: 100%;
+}
+.bgSMIU{
+	background-color: black;
+}
+.size{
+background-image: url('pic2.jpg');
+  	height: 100%;
+  	width: 100%;
+}
+.PosText{
+
+	font-size: 4rem;
+	font-weight: bold;
+}
+.PGreen{
+	color: rgb(0, 177, 106);
+	font-weight: bold;
+	font-size: 2.5rem;
+}
+.hov:hover{
+	transform: scale(1.1);
+	background-color: (0, 177, 106);
+
+}
+.PosCard{
+	/*margin-top: 100px;
+	margin-left: 150px;*/
+}
+.SizeCard{
+/*	padding-left: 20px;
+	padding-right: 20px;*/
+
+}
+.CardDesign{
+	border-radius: 0px;
+	width: 100%;
+}
+p.Context-Parabox{
+	font-size: 16px;
+	font-weight: normal;
+	text-align: center;
+}
+.Card_btn{
+	border-radius: 50px;
+	width: 100%;
+}
+.Card_btn_pos{
+	/*margin-left: 70px;
+	margin-bottom: 40px;*/
+}
+.center{
+	text-align: center;
+}
+#gap{
+	margin-top: 20px;
+}
+.btn_success {
+  font-size: 16px;
+  color: rgba(0, 177, 106, 0.75);
+  letter-spacing: 1px;
+  line-height: 30px;
+  border: 2px solid rgba(0, 177, 106, 0.75);
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+  width: 150px;
+}
+
+.btn_success:hover {
+  color: #FFF;
+  background: rgb(0, 177, 106, 0.75);
+  border: 2px solid rgb(0, 177, 106, 0.75);
+}
+.hovDrop:hover{
+	background-color: rgb(0, 177, 106);
+	color: white;
+}
+.border_drop{
+	border-radius: 0px;
+}
+
+
+
+.bord{
+  border-width: 0px;
+  border-radius: 0px;
+  outline: none;
+}
+.logSide{
+ /* width: 50%;
+  height: 51.1%;*/
+  /*background-color: black;
+  position: absolute;
+  opacity: 0.5;*/
+}
+
+#Username1:focus{
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#Password1:focus{
+  border-color: inherit;
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+#smiuLbl{
+  font-size: 1.5rem;
+}
+.active1:focus{
+	background-color:rgb(0, 177, 106);
+	color: white;
+}
+
+
+
+
